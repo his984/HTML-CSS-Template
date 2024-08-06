@@ -48,6 +48,7 @@
   min-width: 200px;
   top: calc(100% + 15px);
   display: none;
+  z-index: 1;
 }
 
 .header .links ul::before {
@@ -63,15 +64,14 @@
   display: block;
 }
 .header .links ul li a {
- display: block;
+  display: block;
   padding: 15px;
-text-decoration: none;
+  text-decoration: none;
   color: #333;
   transition: 0.3s;
 }
 .header .links ul li a:hover {
- padding-left: 25px;
-
+  padding-left: 25px;
 }
 .header .links ul li:not(:last-child) a {
   border-bottom: 1px solid #ddd;
