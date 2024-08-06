@@ -1,0 +1,9 @@
+/* Start global rules */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+/* End global rules */
+
