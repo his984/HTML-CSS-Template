@@ -1,0 +1,16 @@
+/*! Footer Style  */
+
+/* Footer Style  */
+.footer {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 30px 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Footer span style  */
+.footer span {
+  font-weight: bold;
+  color: var(--main-color);
+}
